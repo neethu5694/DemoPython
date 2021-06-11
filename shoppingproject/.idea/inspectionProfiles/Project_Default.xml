@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E302" />
+          <option value="W391" />
+          <option value="E225" />
+          <option value="E128" />
+          <option value="W292" />
+          <option value="E231" />
+          <option value="E111" />
+          <option value="E131" />
+          <option value="E301" />
+          <option value="E711" />
+          <option value="E305" />
+          <option value="E122" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.contrib.site" />
+          <option value="todoapp.views.Task" />
+          <option value="todoapp.urls.cbvdetail" />
+          <option value="ecommerceproject.ecommerceproject.urls.basket" />
+          <option value="ecommerceproject.basket.urls.basket" />
+          <option value="ecommerceproject.basket.admin.CategoryAdmin" />
+          <option value="ecommerceproject.basket.admin.ProductAdmin" />
+          <option value="ecommerceproject.basket.models.category" />
+          <option value="ecommerceproject.basket.views.Product" />
+          <option value="ecommerceproject.basket.views.Category" />
+          <option value="ecommerceproject.basket.views.get_object_or_404" />
+          <option value="ecommerceproject.basket.models.Product.objects" />
+          <option value="ecommerceproject.basket.models.product" />
+          <option value="django.core.paginator.Invalidpage" />
+          <option value="basket.models" />
+          <option value="django.http.httpresponse" />
+          <option value="django.models" />
+          <option value="ecommerceproject.cart.views.cart" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
